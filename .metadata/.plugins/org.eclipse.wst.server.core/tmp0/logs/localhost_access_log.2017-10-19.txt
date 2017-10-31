@@ -1,0 +1,103 @@
+127.0.0.1 - - [19/Oct/2017:16:17:43 +0800] "GET / HTTP/1.1" 404 951
+127.0.0.1 - - [19/Oct/2017:16:17:44 +0800] "GET /bos-web/ HTTP/1.1" 302 -
+127.0.0.1 - - [19/Oct/2017:16:17:45 +0800] "GET /bos-web/login.jsp;jsessionid=8ECF6784D0EB4E58D0E0E50056A3FEE0 HTTP/1.1" 200 3960
+127.0.0.1 - - [19/Oct/2017:16:17:45 +0800] "GET /bos-web/css/style.css HTTP/1.1" 200 23492
+127.0.0.1 - - [19/Oct/2017:16:17:45 +0800] "GET /bos-web/css/style_grey.css HTTP/1.1" 200 7293
+127.0.0.1 - - [19/Oct/2017:16:17:45 +0800] "GET /bos-web/js/jquery-1.8.3.js HTTP/1.1" 200 267739
+127.0.0.1 - - [19/Oct/2017:16:17:47 +0800] "GET /bos-web/images/bg_login.jpg HTTP/1.1" 200 531270
+127.0.0.1 - - [19/Oct/2017:16:17:47 +0800] "GET /bos-web/images/bg_grey.png HTTP/1.1" 200 5357
+127.0.0.1 - - [19/Oct/2017:16:17:49 +0800] "GET /bos-web/validatecode.jsp HTTP/1.1" 200 1886
+10.14.200.21 - - [19/Oct/2017:16:22:24 +0800] "-" 400 -
+10.14.200.21 - - [19/Oct/2017:16:22:24 +0800] "-" 400 -
+10.14.200.21 - - [19/Oct/2017:16:22:25 +0800] "-" 400 -
+10.14.200.21 - - [19/Oct/2017:16:22:25 +0800] "-" 400 -
+10.14.200.21 - - [19/Oct/2017:16:22:25 +0800] "-" 400 -
+10.14.200.21 - - [19/Oct/2017:16:22:25 +0800] "-" 400 -
+10.14.200.21 - - [19/Oct/2017:16:22:26 +0800] "-" 400 -
+10.14.200.21 - - [19/Oct/2017:16:22:26 +0800] "-" 400 -
+10.14.200.21 - - [19/Oct/2017:16:22:31 +0800] "-" 400 -
+10.14.200.21 - - [19/Oct/2017:16:22:31 +0800] "-" 400 -
+10.14.200.21 - - [19/Oct/2017:16:22:31 +0800] "-" 400 -
+10.14.200.21 - - [19/Oct/2017:16:22:31 +0800] "-" 400 -
+10.14.200.21 - - [19/Oct/2017:16:22:31 +0800] "-" 400 -
+10.14.200.21 - - [19/Oct/2017:16:22:32 +0800] "-" 400 -
+10.14.200.21 - - [19/Oct/2017:16:22:32 +0800] "-" 400 -
+10.14.200.21 - - [19/Oct/2017:16:22:32 +0800] "-" 400 -
+127.0.0.1 - - [19/Oct/2017:16:23:58 +0800] "GET /bos-web/login.jsp;jsessionid=8ECF6784D0EB4E58D0E0E50056A3FEE0 HTTP/1.1" 200 3960
+127.0.0.1 - - [19/Oct/2017:16:23:58 +0800] "GET /bos-web/js/jquery-1.8.3.js HTTP/1.1" 304 -
+127.0.0.1 - - [19/Oct/2017:16:23:58 +0800] "GET /bos-web/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [19/Oct/2017:16:23:58 +0800] "GET /bos-web/css/style_grey.css HTTP/1.1" 304 -
+127.0.0.1 - - [19/Oct/2017:16:23:58 +0800] "GET /bos-web/validatecode.jsp HTTP/1.1" 200 1938
+127.0.0.1 - - [19/Oct/2017:16:23:58 +0800] "GET /bos-web/images/bg_login.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [19/Oct/2017:16:23:58 +0800] "GET /bos-web/images/bg_grey.png HTTP/1.1" 304 -
+127.0.0.1 - - [19/Oct/2017:16:24:06 +0800] "POST /bos-web/userAction_login.action HTTP/1.1" 200 9535
+127.0.0.1 - - [19/Oct/2017:16:24:06 +0800] "GET /bos-web/css/default.css HTTP/1.1" 304 -
+127.0.0.1 - - [19/Oct/2017:16:24:06 +0800] "GET /bos-web/js/easyui/jquery.easyui.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [19/Oct/2017:16:24:06 +0800] "GET /bos-web/js/easyui/themes/icon.css HTTP/1.1" 304 -
+127.0.0.1 - - [19/Oct/2017:16:24:06 +0800] "GET /bos-web/js/easyui/themes/default/easyui.css HTTP/1.1" 304 -
+127.0.0.1 - - [19/Oct/2017:16:24:06 +0800] "GET /bos-web/js/ztree/zTreeStyle.css HTTP/1.1" 304 -
+127.0.0.1 - - [19/Oct/2017:16:24:06 +0800] "GET /bos-web/js/ztree/jquery.ztree.all-3.5.js HTTP/1.1" 304 -
+127.0.0.1 - - [19/Oct/2017:16:24:06 +0800] "GET /bos-web/js/easyui/locale/easyui-lang-zh_CN.js HTTP/1.1" 304 -
+127.0.0.1 - - [19/Oct/2017:16:24:07 +0800] "POST /bos-web/json/admin.json HTTP/1.1" 200 281
+127.0.0.1 - - [19/Oct/2017:16:24:07 +0800] "GET /bos-web/images/online.png HTTP/1.1" 304 -
+127.0.0.1 - - [19/Oct/2017:16:24:07 +0800] "GET /bos-web/images/header_bg.png HTTP/1.1" 304 -
+127.0.0.1 - - [19/Oct/2017:16:24:07 +0800] "GET /bos-web/page_common_home.action HTTP/1.1" 200 2996
+127.0.0.1 - - [19/Oct/2017:16:24:07 +0800] "GET /bos-web/js/easyui/ext/portal.css HTTP/1.1" 304 -
+127.0.0.1 - - [19/Oct/2017:16:24:07 +0800] "GET /bos-web/js/easyui/ext/jquery.portal.js HTTP/1.1" 304 -
+127.0.0.1 - - [19/Oct/2017:16:24:07 +0800] "GET /bos-web/js/easyui/ext/jquery.cookie.js HTTP/1.1" 304 -
+127.0.0.1 - - [19/Oct/2017:16:24:08 +0800] "GET /bos-web/js/easyui/themes/icons/ok.png HTTP/1.1" 304 -
+127.0.0.1 - - [19/Oct/2017:16:24:08 +0800] "GET /bos-web/js/easyui/themes/default/images/menu_arrows.png HTTP/1.1" 304 -
+127.0.0.1 - - [19/Oct/2017:16:24:08 +0800] "GET /bos-web/js/easyui/themes/default/images/linkbutton_bg.png HTTP/1.1" 304 -
+127.0.0.1 - - [19/Oct/2017:16:24:08 +0800] "GET /bos-web/page_portal_gonggao.action?_=1508401447844 HTTP/1.1" 200 637
+127.0.0.1 - - [19/Oct/2017:16:24:08 +0800] "GET /bos-web/page_portal_bug.action?_=1508401447883 HTTP/1.1" 200 861
+127.0.0.1 - - [19/Oct/2017:16:24:08 +0800] "GET /bos-web/js/easyui/themes/icons/cancel.png HTTP/1.1" 304 -
+127.0.0.1 - - [19/Oct/2017:16:24:08 +0800] "GET /bos-web/page_portal_yujing.action?_=1508401447873 HTTP/1.1" 200 614
+127.0.0.1 - - [19/Oct/2017:16:24:08 +0800] "GET /bos-web/page_portal_daiban.action?_=1508401447861 HTTP/1.1" 200 887
+127.0.0.1 - - [19/Oct/2017:16:24:08 +0800] "POST /bos-web/functionAction_findMenu.action HTTP/1.1" 200 2899
+127.0.0.1 - - [19/Oct/2017:16:24:08 +0800] "GET /bos-web/js/easyui/themes/icons/mini_add.png HTTP/1.1" 304 -
+127.0.0.1 - - [19/Oct/2017:16:24:08 +0800] "GET /bos-web/js/easyui/themes/icons/help.png HTTP/1.1" 304 -
+127.0.0.1 - - [19/Oct/2017:16:24:08 +0800] "GET /bos-web/js/easyui/themes/default/images/layout_arrows.png HTTP/1.1" 304 -
+127.0.0.1 - - [19/Oct/2017:16:24:08 +0800] "GET /bos-web/js/easyui/themes/default/images/blank.gif HTTP/1.1" 304 -
+127.0.0.1 - - [19/Oct/2017:16:24:08 +0800] "GET /bos-web/js/easyui/themes/default/images/accordion_arrows.png HTTP/1.1" 304 -
+127.0.0.1 - - [19/Oct/2017:16:24:08 +0800] "GET /bos-web/js/easyui/themes/default/images/loading.gif HTTP/1.1" 304 -
+127.0.0.1 - - [19/Oct/2017:16:24:08 +0800] "GET /bos-web/js/easyui/themes/default/images/panel_tools.png HTTP/1.1" 304 -
+127.0.0.1 - - [19/Oct/2017:16:24:08 +0800] "GET /bos-web/js/ztree/img/zTreeStandard.png HTTP/1.1" 304 -
+127.0.0.1 - - [19/Oct/2017:16:24:10 +0800] "GET /bos-web/js/ztree/img/line_conn.gif HTTP/1.1" 304 -
+127.0.0.1 - - [19/Oct/2017:16:24:11 +0800] "GET /bos-web/js/easyui/themes/default/images/tabs_icons.png HTTP/1.1" 304 -
+127.0.0.1 - - [19/Oct/2017:16:24:11 +0800] "GET /bos-web/taskAction_findGroupTask.action HTTP/1.1" 404 368
+127.0.0.1 - - [19/Oct/2017:16:24:12 +0800] "GET /bos-web/taskAction_findPersonalTask.action HTTP/1.1" 404 368
+127.0.0.1 - - [19/Oct/2017:16:24:12 +0800] "GET /bos-web/workOrderManageAction_list.action HTTP/1.1" 404 368
+127.0.0.1 - - [19/Oct/2017:16:24:19 +0800] "GET /bos-web/page_qupai_diaodu.action HTTP/1.1" 200 3450
+127.0.0.1 - - [19/Oct/2017:16:24:19 +0800] "POST /bos-web/staff_ajaxlist.action HTTP/1.1" 404 368
+127.0.0.1 - - [19/Oct/2017:16:24:19 +0800] "POST /bos-web/noticebill_findnoassociations.action HTTP/1.1" 404 368
+127.0.0.1 - - [19/Oct/2017:16:24:19 +0800] "GET /bos-web/js/easyui/themes/default/images/combo_arrow.png HTTP/1.1" 304 -
+127.0.0.1 - - [19/Oct/2017:16:24:19 +0800] "GET /bos-web/images/title.png HTTP/1.1" 304 -
+127.0.0.1 - - [19/Oct/2017:16:24:19 +0800] "GET /bos-web/js/easyui/themes/icons/filesave.png HTTP/1.1" 304 -
+127.0.0.1 - - [19/Oct/2017:16:24:19 +0800] "GET /bos-web/js/easyui/themes/default/images/validatebox_warning.png HTTP/1.1" 304 -
+127.0.0.1 - - [19/Oct/2017:16:24:19 +0800] "GET /bos-web/js/easyui/themes/icons/pencil.png HTTP/1.1" 304 -
+127.0.0.1 - - [19/Oct/2017:16:24:26 +0800] "GET /bos-web/page_base_decidedzone.action HTTP/1.1" 200 13321
+127.0.0.1 - - [19/Oct/2017:16:24:27 +0800] "GET /bos-web/js/easyui/themes/icons/edit_add.png HTTP/1.1" 304 -
+127.0.0.1 - - [19/Oct/2017:16:24:27 +0800] "GET /bos-web/js/easyui/themes/icons/sum.png HTTP/1.1" 304 -
+127.0.0.1 - - [19/Oct/2017:16:24:27 +0800] "GET /bos-web/js/easyui/themes/default/images/pagination_icons.png HTTP/1.1" 304 -
+127.0.0.1 - - [19/Oct/2017:16:24:27 +0800] "GET /bos-web/js/easyui/themes/icons/search.png HTTP/1.1" 304 -
+127.0.0.1 - - [19/Oct/2017:16:24:27 +0800] "POST /bos-web/subareaAction_listajax.action HTTP/1.1" 200 701
+127.0.0.1 - - [19/Oct/2017:16:24:27 +0800] "POST /bos-web/decidedzoneAction_pageQuery.action HTTP/1.1" 200 793
+127.0.0.1 - - [19/Oct/2017:16:24:27 +0800] "POST /bos-web/staffAction_listajax.action HTTP/1.1" 200 406
+127.0.0.1 - - [19/Oct/2017:16:24:30 +0800] "GET /bos-web/page_base_subarea.action HTTP/1.1" 200 12312
+127.0.0.1 - - [19/Oct/2017:16:24:30 +0800] "GET /bos-web/js/highcharts/highcharts.js HTTP/1.1" 304 -
+127.0.0.1 - - [19/Oct/2017:16:24:30 +0800] "GET /bos-web/js/highcharts/modules/exporting.js HTTP/1.1" 304 -
+127.0.0.1 - - [19/Oct/2017:16:24:30 +0800] "POST /bos-web/regionAction_listajax.action HTTP/1.1" 200 12887
+127.0.0.1 - - [19/Oct/2017:16:24:30 +0800] "POST /bos-web/regionAction_listajax.action HTTP/1.1" 200 12887
+127.0.0.1 - - [19/Oct/2017:16:24:30 +0800] "POST /bos-web/subareaAction_pageQuery.action HTTP/1.1" 200 3420
+127.0.0.1 - - [19/Oct/2017:16:24:30 +0800] "GET /bos-web/js/easyui/themes/icons/redo.png HTTP/1.1" 304 -
+127.0.0.1 - - [19/Oct/2017:16:24:30 +0800] "GET /bos-web/js/easyui/themes/icons/undo.png HTTP/1.1" 304 -
+127.0.0.1 - - [19/Oct/2017:16:24:35 +0800] "POST /bos-web/subareaAction_findSubareaByProvince.action HTTP/1.1" 200 94
+127.0.0.1 - - [19/Oct/2017:16:24:41 +0800] "GET /bos-web/page_base_region.action HTTP/1.1" 200 5659
+127.0.0.1 - - [19/Oct/2017:16:24:42 +0800] "GET /bos-web/js/jquery.ocupload-1.1.2.js HTTP/1.1" 304 -
+127.0.0.1 - - [19/Oct/2017:16:24:42 +0800] "POST /bos-web/regionAction_pageQuery.action HTTP/1.1" 200 1903
+127.0.0.1 - - [19/Oct/2017:16:24:46 +0800] "GET /bos-web/page_base_staff.action HTTP/1.1" 200 10585
+127.0.0.1 - - [19/Oct/2017:16:24:46 +0800] "POST /bos-web/staffAction_pageQuery.action HTTP/1.1" 200 1078
+127.0.0.1 - - [19/Oct/2017:16:24:49 +0800] "GET /bos-web/page_base_standard.action HTTP/1.1" 404 368
+127.0.0.1 - - [19/Oct/2017:16:25:39 +0800] "GET / HTTP/1.1" 404 951
+127.0.0.1 - - [19/Oct/2017:16:25:40 +0800] "GET /bos-web/userAction_login.action HTTP/1.1" 200 4055
+127.0.0.1 - - [19/Oct/2017:16:25:40 +0800] "GET /bos-web/validatecode.jsp HTTP/1.1" 200 1857

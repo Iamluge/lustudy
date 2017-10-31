@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- <mapper namespace="staff"> -->
+<mapper namespace="com.lu.mapper.StaffMapper">
+<select id="findStaffById" parameterType="String" resultType="com.lu.pojo.Staff">
+select *from staff where id=#{v}
+</select>
+<select id="findStaffByName" parameterType="String" resultType="com.lu.pojo.Staff">
+select *from staff where id like "%"#{v}"%";
+</select>
+<update id="delete" parameterType="String">
+delete from staff where id=#{v};
+</update>
+<update id="insert" parameterType="com.lu.pojo.Staff">
+insert into staff(id,name,telephone,station) values(#{id},#{name},#{telephone},#{station});
+</update>
+</mapper>

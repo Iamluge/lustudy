@@ -1,0 +1,7 @@
+#Tomcat publish data
+#Mon Oct 16 21:11:42 CST 2017
+org.eclipse.jst.jee.server\:/binary\:E\:\\BaiduYunDownload\\han\\javaweb32\\15\u3001luncene\u3001Solr\\Lucene&solr_day02\\Lucene&solr_day02\\jd\\WebContent\\WEB-INF\\lib\\spring-web-4.1.3.RELEASE.jar=WEB-INF/lib/spring-web-4.1.3.RELEASE.jar
+org.eclipse.jst.jee.server\:/binary\:E\:\\BaiduYunDownload\\han\\javaweb32\\11\u3001\u7269\u6D41BOS\u7CFB\u7EDF\\BOS-day10\\BOS-day10\\\u8D44\u6599\\privilegedemo\\WebContent\\WEB-INF\\lib\\spring-web-3.2.0.RELEASE.jar=WEB-INF/lib/spring-web-3.2.0.RELEASE.jar
+org.eclipse.jst.jee.server\:/binary\:D\:\\workspaces-itcast\\template\\boot-crm\\WebContent\\WEB-INF\\lib\\spring-web-4.1.3.RELEASE.jar=WEB-INF/lib/spring-web-4.1.3.RELEASE.jar
+org.eclipse.jst.jee.server\:/binary\:E\:\\BaiduYunDownload\\han\\javaweb32\\15\u3001luncene\u3001Solr\\Lucene&solr_day02\\Lucene&solr_day02\\jd\\WebContent\\WEB-INF\\lib\\log4j-core-2.0-rc1.jar=WEB-INF/lib/log4j-core-2.0-rc1.jar
+org.eclipse.jst.jee.server\:/binary\:D\:\\workspaces-itcast\\template\\ssm\\WebContent\\WEB-INF\\lib\\spring-web-4.1.3.RELEASE.jar=WEB-INF/lib/spring-web-4.1.3.RELEASE.jar

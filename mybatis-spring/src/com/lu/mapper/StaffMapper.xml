@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- <mapper namespace="staff"> -->
+
+<mapper namespace="com.lu.mapper.StaffMapper">
+
+<select id="findStaffById" parameterType="String" resultType="com.lu.pojo.Staff">
+select *from staff where id=#{v}
+</select>
+<select id="findStaffByName" parameterType="String" resultType="com.lu.pojo.Staff">
+select *from staff where id like "%"#{v}"%";
+</select>
+<update id="delete" parameterType="String">
+delete from staff where id=#{v};
+</update>
+<update id="insert" parameterType="com.lu.pojo.Staff">
+insert into staff(id,name,telephone,station) values(#{id},#{name},#{telephone},#{station});
+</update>
+
+<!-- 包装类型模糊查询 -->
+<select id="findStaffQueryVo" parameterType="com.lu.pojo.QueryVo" resultType="com.lu.pojo.Staff">
+select *from staff where name like "%"#{staff.name}"%";
+</select>
+
+<!-- 输出简单类型 -->
+<select id="findCountQueryVo" parameterType="com.lu.pojo.QueryVo" resultType="int">
+select count(*) from staff where name like "%"#{staff.name}"%";
+</select>
+<!-- 使用标签查询，where标签只能去除第一个前and -->
+ <select id="findStaffByNameAndId" parameterType="Staff" resultType="Staff">
+	 	select *from staff 
+	 	<where>
+		 	<if test="name != null and name != ''">
+		 		 and name = #{name} 
+		 	</if>
+		 	<if test="id != null and id != ''">
+			 	 and id = #{id}
+		 	</if>
+	 	</where>
+	 </select>
+	 
+	  <!-- 多个ID (1,2,3)-->
+	 <select id="findStaffByIdList" parameterType="QueryVo" resultType="Staff">
+	 	select *from staff 
+	 	<where>
+	 		<foreach collection="idList" item="id" separator="," open="id in (" close=")">
+	 			#{id}
+	 		</foreach>
+	 	</where>
+	 </select>
+
+
+</mapper>

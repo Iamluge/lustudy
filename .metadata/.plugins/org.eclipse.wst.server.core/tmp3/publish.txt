@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Tue Oct 31 08:14:30 CST 2017
+org.eclipse.jst.jee.server\:/binary\:D\:\\workspaces-itcast\\template\\lujd\\WebContent\\WEB-INF\\lib\\log4j-core-2.0-rc1.jar=WEB-INF/lib/log4j-core-2.0-rc1.jar
+org.eclipse.jst.jee.server\:/binary\:D\:\\workspaces-itcast\\template\\lujd\\WebContent\\WEB-INF\\lib\\spring-web-4.1.3.RELEASE.jar=WEB-INF/lib/spring-web-4.1.3.RELEASE.jar

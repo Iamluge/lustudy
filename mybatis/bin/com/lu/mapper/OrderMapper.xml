@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 写Sql语句   -->
+<mapper namespace="com.lu.mapper.OrderMapper">
+		
+	<!-- 
+		//一对一关联 查询  以订单为中心 关联用户
+	public List<Orders> selectOrders();
+	 -->
+	 <resultMap type="Orders" id="order">
+	 	<result column="id" property="id"/>
+	 	<result column="staffId" property="staffId"/>
+	 	<result column="number" property="number"/>
+	 	<result column="createtime" property="createtime"/>
+	 	<!-- 一对一 -->
+	 	<association property="staff" javaType="Staff">
+	 		<id column="id" property="id"/>
+	 		<result column="name" property="name"/>
+	 		<result column="telephone" property="telephone"/>
+	 	</association>
+	 </resultMap>
+	 <select id="selectOrders" resultMap="order">
+	 	SELECT 
+	 	o.id,
+	    o.staffId, 
+	    o.number,
+	 	o.createtime,
+	 	u.name 
+	 	FROM orders o 
+	 	left join staff u 
+	 	on o.staffId = u.id
+	 </select>
+
+	 <!--  
+	  	//一对多关联
+	public List<User> selectUserList(); -->
+	<resultMap type="Staff" id="staff">
+		<id column="id" property="id"/>
+		<result column="name" property="name"/>
+		<!-- 一对多 -->
+		<collection property="ordersList" ofType="Orders">
+			<id column="id" property="id"/>
+			<id column="staffId" property="staffId"/>
+			<result column="number" property="number"/>
+		</collection>
+	</resultMap>
+	<select id="selectStaffList" resultMap="staff">
+		SELECT 
+	 	o.id,
+	    o.staffId, 
+	    o.number,
+	 	o.createtime,
+	 	u.name 
+	 	FROM staff u
+	 	left join orders o 
+	 	on o.staffId = u.id
+	</select>
+
+
+</mapper>

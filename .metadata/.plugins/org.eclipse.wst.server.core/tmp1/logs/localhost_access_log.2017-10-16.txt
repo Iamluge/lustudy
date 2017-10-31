@@ -1,0 +1,4 @@
+127.0.0.1 - - [16/Oct/2017:21:13:27 +0800] "GET / HTTP/1.1" 404 951
+127.0.0.1 - - [16/Oct/2017:21:13:29 +0800] "GET /jd/ HTTP/1.1" 404 957
+127.0.0.1 - - [16/Oct/2017:21:15:03 +0800] "GET /solr/collection1/select?sort=product_price+asc&start=0&rows=16&df=product_keywords&fl=id%2Cproduct_name%2Cproduct_price%2Cproduct_picture&hl=true&hl.fl=product_name&hl.simple.pre=%3Cspan+style%3D%27color%3Ared%27%3E&hl.simple.post=%3C%2Fspan%3E&wt=javabin&version=2 HTTP/1.1" 404 997
+127.0.0.1 - - [16/Oct/2017:21:15:03 +0800] "GET /jd/list.action HTTP/1.1" 500 10034

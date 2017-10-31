@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract local variable &apos;selectProductModelListByQuery&apos; from expression &apos;jDService.selectProductModelListByQuery(queryString,catalog_name,price,sort)&apos;&#x0D;&#x0A;- Original project: &apos;lujd&apos;&#x0D;&#x0A;- Variable name: &apos;selectProductModelListByQuery&apos;&#x0D;&#x0A;- Destination method: &apos;com.lu.jd.controller.JDController.jdSearch()&apos;&#x0D;&#x0A;- Variable expression: &apos;jDService.selectProductModelListByQuery(queryString,catalog_name,price,sort)&apos;&#x0D;&#x0A;- Replace occurrences of expression with variable" description="Extract local variable &apos;selectProductModelListByQuery&apos;" final="false" id="org.eclipse.jdt.ui.extract.temp" input="/src&lt;com.lu.jd.controller{JDController.java" name="selectProductModelListByQuery" replace="true" selection="621 0" stamp="1508220896590" version="1.0"/>
+</session>
